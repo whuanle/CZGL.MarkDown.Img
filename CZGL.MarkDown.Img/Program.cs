@@ -26,7 +26,7 @@ namespace CZGL.MarkDown.Img
                 exclude.File_Exclude = new string[] { "toc.yml", "intro.md" };
             }
             Console.WriteLine("快速迁移Markdown文档的远程图片到本地");
-            Console.WriteLine("输入地址");
+            Console.WriteLine("输入Markdown文件目录地址");
             string dirpath = Console.ReadLine();
 
             Console.WriteLine("输入存储图片的目录名称");
